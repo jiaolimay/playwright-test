@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "types": ["node", "@playwright/test"]
+  },
+  "include": ["playwright.config.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
