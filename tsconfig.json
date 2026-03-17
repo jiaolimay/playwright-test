@@ -12,6 +12,6 @@
     "strict": true,
     "types": ["node", "@playwright/test"]
   },
-  "include": ["playwright.config.ts", "tests/**/*.ts"],
+  "include": ["playwright.config.ts", "playwright.auth.config.ts", "tests/**/*.ts", "pages/**/*.ts"],
   "exclude": ["node_modules"]
 }

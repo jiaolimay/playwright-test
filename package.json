@@ -6,10 +6,12 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
-    "codegen": "playwright codegen"
+    "codegen": "playwright codegen",
+    "auth": "playwright test --config=playwright.auth.config.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.42.1",
+    "@types/node": "^20.10.0",
     "typescript": "^5.3.3"
   }
 }
